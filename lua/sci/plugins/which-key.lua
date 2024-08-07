@@ -12,5 +12,8 @@ return {
     { "<leader>s", group="search" },
     { "<leader>sg", "<cmd>Telescope live_grep<cr>", desc = "Grep", mode = "n" },
 
+    -- Terminal
+    { "<leader>t", group="terminal" },
+    { "<leader>tt", "<cmd>terminal<cr>", desc = "Open a terminal", mode = "n" },
   } 
 }
